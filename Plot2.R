@@ -29,6 +29,3 @@ with(power_data, plot(DateTime, Global_active_power, type = "l",
 dev.copy(png, file = "plot2.png")
 dev.off()
 
-
-
-

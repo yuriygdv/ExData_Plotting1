@@ -47,8 +47,3 @@ with(power_data, plot(DateTime, Global_reactive_power, type = "l"))
 dev.copy(png, file = "plot4.png")
 dev.off()
 
-
-
-
-
-

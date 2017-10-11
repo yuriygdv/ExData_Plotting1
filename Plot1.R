@@ -31,9 +31,3 @@ hist(power_data$Global_active_power, col = "red",
 
 dev.copy(png, file = "plot1.png")
 dev.off()
-
-
-
-
-
-
