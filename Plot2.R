@@ -3,8 +3,8 @@ library(pryr)        #memory
 library(dplyr)       #data manipulation
 library(lubridate)   #for time
 
-setwd("E:/Coursera/DataScience - Johns Hopkins University/04_Exploratory Data Analysis/Project1/ExData_Plotting1")
-getwd()
+#setwd("your work dir goes here")
+#getwd()
 
 if (!file.exists("household_power_consumption.zip")) {
 fileURL <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
