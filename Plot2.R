@@ -4,7 +4,6 @@ library(dplyr)       #data manipulation
 library(lubridate)   #for time
 
 #setwd("your work dir goes here")
-#getwd()
 
 if (!file.exists("household_power_consumption.zip")) {
 fileURL <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
